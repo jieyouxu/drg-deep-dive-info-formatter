@@ -6,7 +6,7 @@ Helps to format weekly deep dive info in DRG discord server's
 ## Prerequisites
 
 Since this is mostly a small script for personal usage, this requires installing
-the [Rust](https://rustup.rs/) nightly toolchain.
+the [Rust](https://rustup.rs/) toolchain (stable is fine).
 
 ## Usage
 
