@@ -19,6 +19,95 @@ $ cargo run
 
 The formatted file will be written to `output/formatted.md`.
 
+## Valid Values
+
+### Primary Objectives
+
+```
+"200 Morkite"
+"225 Morkite"
+"250 Morkite"
+"4 Eggs"
+"6 Eggs"
+"On-Site Refining"
+"2 Mini-mules"
+"3 Mini-mules"
+"7 Aquarqs"
+"10 Aquarqs"
+"Escort Duty"
+"2 Dreadnoughts"
+"3 Dreadnoughts"
+"Industrial Sabotage"
+```
+
+#### Remark on Dreadnoughts
+
+For non-dreadnought primary objectives, it suffices to write e.g.
+
+```json
+"primary_objective": "7 Aquarqs"
+```
+
+For dreadnoughts, you need to specify their types. For example, if the primary
+objective is 2 Dreadnoughts (Twins + Classic), you can write:
+
+```json
+"primary_objective": {
+    "2 Dreadnoughts": ["Twins, "Hiveguard"]
+}
+```
+
+### Secondary Objectives
+
+```
+"150 Morkite"
+"2 Eggs"
+"2 Mini-mules"
+"Dreadnought"
+"Black Box"
+```
+
+### Biomes
+
+```
+"Sandblasted Corridors"
+"Crystalline Caverns"
+"Salt Pits"
+"Fungus Bogs"
+"Radioactive Exclusion Zone"
+"Dense Biozone"
+"Glacial Strata"
+"Hollow Bough"
+"Azure Weald"
+"Magma Core"
+```
+
+### Anomaly
+
+```
+"Critical Weakness"
+"Low Gravity"
+"Rich Atmosphere"
+"Volatile Guts"
+```
+
+### Warnings
+
+```
+"Cave Leech Cluster"
+"Elite Threat"
+"Exploder Infestation"
+"Haunted Cave"
+"Lethal Enemies"
+"Low Oxygen"
+"Mactera Plague"
+"Parasites"
+"Regenerative Bugs"
+"Rival Presence"
+"Shield Disruption"
+"Swarmageddon"
+```
+
 ## Example Input
 
 ```json
