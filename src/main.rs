@@ -76,7 +76,7 @@ pub enum PrimaryObjective {
     Egg4,
     #[serde(rename = "6 Eggs")]
     Egg6,
-    #[serde(rename = "On-Site Refining")]
+    #[serde(rename = "On-Site Refinery")]
     OnSiteRefining,
     #[serde(rename = "2 Mini-mules")]
     MiniMules2,
