@@ -365,7 +365,7 @@ fn discord_emojify_info(info: &DeepDivesInfo) -> String {
     let dives_info = format!(
         "\
         Weekly Deep Dives information for **{start} to {end}**.\n\
-        Deep Dives will reset in **<t:{unix_timestamp}:R>**\n\n\
+        Deep Dives will reset **<t:{unix_timestamp}:R>**\n\n\
         {dd_info}\n\
         {edd_info}\n\
         "
